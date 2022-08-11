@@ -8,5 +8,12 @@
 
             return service;
         }
+
+
+        public static IApplicationBuilder UseSwaggerDocumentation(this IApplicationBuilder app)
+        {
+
+            return app;
+        }
     }
 }
